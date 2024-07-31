@@ -1,19 +1,19 @@
 package com.whatsapp.controller;
 
-public interface whatsappControllerInterface {
+public interface WhatsappControllerInterface {
 
 	void createProfileController();
 
 	void viewProfileController();
 
-	void deleteProfileController();
-
 	void editProfileController();
 
-	void searchprofileController();
+	void deleteProfileController();
 
-	void viewallProfileController();
+	void searchProfileController();
 
 	void loginProfileController();
+
+	void viewAllProfileController();
 
 }
